@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <table name="users">
+    <column>id</column>
+    <column>email</column>
+    <column>password</column>
+    <column>login</column>
+    <column>registration_date</column>
+    <row>
+      <value>1</value>
+      <value>test@test.com</value>
+      <value>test</value>
+      <value>testLogin</value>
+      <value><![CDATA[2013-11-22 12:10:08.0]]></value>
+    </row>
+    <row>
+      <value>2</value>
+      <value>testSecond@test.com</value>
+      <value>testSecond</value>
+      <value>testLoginSecond</value>
+      <value><![CDATA[2013-10-21 07:23:22.0]]></value>
+    </row>
+  </table>
+      <table name="photo">
+    <column>photo_id</column>
+    <column>user_id</column>
+    <column>tags</column>
+    <column>description</column>
+    <column>upload_date</column>
+    <row>
+      <value>1</value>
+      <value>1</value>
+      <value>testtags</value>
+      <value>testdescription</value>
+      <value><![CDATA[2013-11-29 19:30:08.0]]></value>
+    </row>
+    <row>
+      <value>2</value>
+      <value>1</value>
+      <value>testPickTag</value>
+      <value>testSecondDescription</value>
+      <value><![CDATA[2013-12-30 13:48:03.0]]></value>
+    </row>
+    <row>
+      <value>3</value>
+      <value>2</value>
+      <value>testPickTag</value>
+      <value>testThirdDescription</value>
+      <value><![CDATA[2013-12-31 17:24:01.0]]></value>
+    </row>
+   </table>
+</dataset>

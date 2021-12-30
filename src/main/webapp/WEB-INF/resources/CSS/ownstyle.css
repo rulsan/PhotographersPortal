@@ -1,0 +1,137 @@
+/*!
+* Addition styles
+*/
+
+body{
+    padding-bottom: 50px;
+}
+/*set color of active menu items to gray*/
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: gray;
+}
+/*used for menu links*/
+.black{
+    color: #000000;
+}
+
+.avatar {
+    position: relative;
+    float: left;
+}
+/*set avatar image size*/
+.avatar img{
+    display: block;
+    width: 180px;
+    height: 180px;
+}
+/*set avatar change link*/
+.avatar #change {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+/*set popup menu*/
+.pop {
+    background: #FFFFFF;
+    border:1px solid black;
+    border-radius: 5px;
+    cursor:default;
+    display:none;
+    margin-top: 180px;
+    position: absolute;
+    text-align:left;
+    height: 170px;
+    width: 445px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index:50;
+    padding: 15px 15px 15px;
+}
+/*set popup images list fit*/
+.pop img{
+    border:1px solid #FFFFFF;
+    padding: 5px 5px 5px;
+    background: #C0C0C0;
+}
+/*Show 2 menu links inline*/
+#main-menu li:nth-child(1) {
+    display:inline-block;
+        width: 76%;
+}
+#main-menu li:nth-child(2){
+        display:inline-block;
+        width: 22%;
+}
+
+/*start list of users*/
+
+.listuser{
+     border-left:5px solid #eeeeee;
+     margin: 0 0 20px;
+     padding: 0 0 0 15px;
+}
+.listuser .userId{
+     font-size: 17.5px;
+     font-weight: 300;
+}
+.listuser .email{
+     color: #999999;
+     margin-left:0px;
+}
+
+.listuser .email:before{
+        content: '\2014 \00A0';
+}
+/*finish list of users*/
+
+/*download button*/
+.file-input-button {
+    position: relative;
+    overflow: hidden;
+}
+.file-input-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+}
+/*Profile edit areas*/
+.edit_area{
+    width: 300px;
+    max-width:500px;
+
+    height:100px;
+    max-height:200px;
+}
+#edit_photo_buttons{
+    padding: 20px 20px 20px;
+}
+#edit_photo_area1{
+    width: 75%;
+    max-width:75%;
+    max-height:100px;
+}
+#edit_photo_area2{
+    width: 75%;
+    max-width:75%;
+    max-height:200px;
+}
+#edit_photo{
+    display: none;
+}
+.center_button{
+    width: 95%;
+    text-align: center;
+}
+dd{
+    word-wrap:break-word;
+}

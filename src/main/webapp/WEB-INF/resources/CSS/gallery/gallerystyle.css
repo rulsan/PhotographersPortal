@@ -1,0 +1,123 @@
+#content .rg-image-wrapper{
+    min-height: 400px;
+    height: auto;
+    valign: center;
+    position: relative;
+    padding:20px 30px;
+    background:transparent url(../../images/black.png) repeat top left;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#content .rg-image{
+    text-align:center;
+    line-height:0px;
+}
+#content .rg-image img{
+    min-height: 400px;
+    max-height: 400px;
+    valign: center;
+}
+#content .es-carousel img{
+    min-height: 50px;
+    max-height: 50px;
+}
+#content .rg-image-nav a{
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:#000 url(../../images/nav.png) no-repeat -20% 50%;
+    width:28px;
+    height:100%;
+    text-indent:-9000px;
+    cursor:pointer;
+    opacity:0.3;
+    outline:none;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+#content .rg-image-nav a.rg-image-nav-next{
+    right:0px;
+    left:auto;
+    background-position:115% 50%;
+    -moz-border-radius: 0px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 10px 10px 0px;
+}
+#content .rg-image-nav a:hover{
+    opacity:0.8;
+}
+#content .rg-caption {
+    text-align:left;
+    margin-top:15px;
+    position:relative;
+}
+#content #photo_tags{
+    font-weight: bold;
+    color: white;
+    font-size:13px;
+    font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    line-height:16px;
+    padding:0 15px;
+}
+#content #photo_description{
+    font-size:11px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    line-height:16px;
+    padding:0 15px;
+}
+#content .rg-view{
+    height:30px;
+}
+#content .rg-view a{
+    display:block;
+    float:right;
+    width:16px;
+    height:16px;
+    margin-right:3px;
+    background:#464646 url(../../images/views.png) no-repeat top left;
+    border:3px solid #464646;
+    opacity:0.8;
+}
+#content .rg-view a:hover{
+    opacity:1.0;
+}
+#content .rg-view a.rg-view-full{
+    background-position:0px 0px;
+}
+#content .rg-view a.rg-view-selected{
+    background-color:#6f6f6f;
+    border-color:#6f6f6f;
+}
+#content .rg-view a.rg-view-thumbs{
+    background-position:0px -16px;
+}
+#content .rg-loading{
+    width:46px;
+    height:46px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background:#000 url(../../images/ajax-loader.gif) no-repeat center center;
+    margin:-23px 0px 0px -23px;
+    z-index:100;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    opacity:0.7;
+}
+#content {
+    position: relative;
+}
+#content .rg-gallery{
+    width: 95%;
+    height: 100%;
+}
+.es-carousel ul{
+    display:block;
+}
+
+
+

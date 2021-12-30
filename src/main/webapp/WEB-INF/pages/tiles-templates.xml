@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+    <!-- Templates -->
+    <definition name="base-template" template="/WEB-INF/pages/tiles/base-template.jsp">
+        <put-attribute name="title" value="Default title" />
+        <put-attribute name="header" value="/WEB-INF/pages/tiles/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/pages/tiles/menu.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer" value="/WEB-INF/pages/tiles/footer.jsp" />
+    </definition>
+    
+    <definition name="base-template-full" template="/WEB-INF/pages/tiles/base-template-full.jsp">
+        <put-attribute name="title" value="Default title" />
+        <put-attribute name="header" value="/WEB-INF/pages/tiles/header.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer" value="/WEB-INF/pages/tiles/footer.jsp" />
+    </definition>
+
+    <definition name="index" extends="base-template-full">
+        <put-attribute name="title" value="Photo Portal" />
+        <!-- <put-attribute name="menu" value="" /> -->
+        <put-attribute name="content" value="/WEB-INF/pages/index.jsp" />
+    </definition>
+
+    <definition name="registration" extends="base-template-full">
+        <put-attribute name="title" value="Registration" />
+        <put-attribute name="content" value="/WEB-INF/pages/registration.jsp" />
+    </definition>
+
+    <definition name="registration-success" extends="base-template-full">
+        <put-attribute name="title" value="Success" />
+        <put-attribute name="content" value="/WEB-INF/pages/registration-success.jsp" />
+    </definition>
+
+    <definition name="login" extends="base-template-full">
+        <put-attribute name="title" value="Login" />
+        <put-attribute name="content" value="/WEB-INF/pages/login.jsp" />
+    </definition>
+
+    <definition name="profile" extends="base-template">
+        <put-attribute name="title" value="Profile" />
+        <put-attribute name="content" value="/WEB-INF/pages/profile.jsp" />
+    </definition>
+
+    <definition name="list" extends="base-template">
+        <put-attribute name="title" value="All users" />
+        <put-attribute name="content" value="/WEB-INF/pages/list.jsp" />
+    </definition>
+    
+     <definition name="update-user" extends="base-template">
+        <put-attribute name="title" value="User update" />
+        <put-attribute name="content" value="/WEB-INF/pages/update-user.jsp" />
+    </definition>
+
+    <definition name="myPhoto" extends="base-template">
+        <put-attribute name="title" value="My photo" />
+        <put-attribute name="content" value="/WEB-INF/pages/myPhoto.jsp" />
+    </definition>
+
+    <definition name="changePass" extends="base-template-full">
+        <put-attribute name="title" value="change Pass" />
+        <put-attribute name="content" value="/WEB-INF/pages/changePass.jsp" />
+    </definition>
+
+</tiles-definitions>
